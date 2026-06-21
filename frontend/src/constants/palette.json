@@ -1,0 +1,60 @@
+{
+  "primary": {
+    "DEFAULT": "#00796B",
+    "light": "#0E8F82",
+    "dark": "#004D4A",
+    "50": "#ECFDF5",
+    "100": "#CCFBF1",
+    "200": "#99F6E4",
+    "300": "#5EEAD4",
+    "400": "#12A594",
+    "500": "#0E8F82",
+    "600": "#00796B",
+    "700": "#005B55",
+    "800": "#00413E",
+    "900": "#002D2B"
+  },
+  "accent": {
+    "DEFAULT": "#F59E0B",
+    "light": "#FBBF24",
+    "dark": "#D97706"
+  },
+  "background": {
+    "DEFAULT": "#F8FAFC",
+    "card": "#FFFFFF",
+    "elevated": "#FFFFFF"
+  },
+  "surface": {
+    "DEFAULT": "#FFFFFF",
+    "secondary": "#F8FAFC",
+    "tertiary": "#F8FAFC"
+  },
+  "text": {
+    "DEFAULT": "#0F172A",
+    "secondary": "#475569",
+    "tertiary": "#64748B",
+    "inverse": "#FFFFFF"
+  },
+  "status": {
+    "success": "#16A34A",
+    "warning": "#F59E0B",
+    "error": "#DC2626",
+    "info": "#0EA5E9",
+    "pending": "#F59E0B",
+    "resolved": "#16A34A",
+    "rejected": "#DC2626",
+    "successBg": "#ECFDF5",
+    "warningBg": "#FFFBEB",
+    "errorBg": "#FEF2F2",
+    "infoBg": "#EFF6FF"
+  },
+  "border": {
+    "DEFAULT": "#E5E7EB",
+    "light": "#F3F4F6"
+  },
+  "tabBar": {
+    "active": "#00796B",
+    "inactive": "#64748B",
+    "background": "#FFFFFF"
+  }
+}
