@@ -68,16 +68,10 @@ class ApiService {
         ? error.message 
         : "Network request failed";
       
-      const isTimeout =
-        error instanceof Error && error.name === "AbortError";
-      const isNetworkError = message.includes("Failed to fetch");
-
       throw new ApiError(
-        isTimeout
-          ? `The request to ${this.baseUrl} timed out. Check that the backend is running and your device is on the same Wi-Fi network.`
-          : isNetworkError
-            ? `Cannot reach API server at ${this.baseUrl}. Check that the backend is running and your device is on the same Wi-Fi network.`
-            : message,
+        message.includes("Failed to fetch") 
+          ? `Cannot reach API server at ${this.baseUrl}. Check if backend is running and network is accessible.`
+          : message,
         0,
       );
     }

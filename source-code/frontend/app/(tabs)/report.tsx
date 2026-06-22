@@ -786,3 +786,4 @@ export default function ReportScreen() {
     </SafeAreaView>
   );
 }
+

@@ -133,6 +133,9 @@ export default function TabsLayout() {
           ),
         }}
       />
+      {/* report-detail lives at app/report-detail.tsx (stack), hide if accidentally resolved here */}
+      <Tabs.Screen name="report-detail" options={{ href: null }} />
     </Tabs>
   );
 }
+
